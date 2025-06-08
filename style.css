@@ -21,3 +21,42 @@ article{
     font-family: "Inter", sans-serif;
     text-align: center;
 }
+#div1{
+    background-color: aliceblue;
+    color: #111827;
+}
+#github-link{
+    color: #01c16a;
+    text-decoration: none;    
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    display: block;
+    border-radius: 8px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    margin:auto;
+    object-fit: contain;
+    transition: background-color 0.3s ease-in, transform 0.3s ease-in-out;
+}
+#github-link:hover{
+    transform: scale(1.2);
+}
+
+#education-link{
+    color: #01c16a;
+    text-decoration: none;    
+    text-align:center;
+    font-family: "Inter", sans-serif;
+    display: block;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    height: 25px;
+    width: auto;
+    margin: 0 auto;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+#education-link:hover{
+    transform: scale(1.2);
+}
