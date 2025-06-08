@@ -1,0 +1,23 @@
+#Portfolio{
+    color: #01c16a;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color: #111827;
+    color: #f3f4f6;
+}
+.about{
+    color: #f3f4f6;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+article{
+    background-color: #1f2937;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
