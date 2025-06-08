@@ -62,3 +62,42 @@ article{
     transform: scale(1.2);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+#Form1{
+    background-color: #1f2937;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+#feedback{
+    color: #131924;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    height: 50px;
+    width: 500px;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#feedback:hover{
+    background-color: #405169;
+    color: #f3f4f6;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+}
+#feedback1{
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    height: 50px;
+    width: 500px;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
