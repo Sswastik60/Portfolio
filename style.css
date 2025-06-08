@@ -21,10 +21,10 @@ article{
     font-family: "Inter", sans-serif;
     text-align: center;
 }
-#div1{
+/* #div1{
     background-color: aliceblue;
     color: #111827;
-}
+} */
 #github-link{
     color: #01c16a;
     text-decoration: none;    
@@ -41,6 +41,7 @@ article{
 }
 #github-link:hover{
     transform: scale(1.2);
+    box-shadow: #111827 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #education-link{
@@ -51,12 +52,14 @@ article{
     display: block;
     border-radius: 8px;
     padding: 20px;
-    margin: 20px;
-    height: 25px;
-    width: auto;
-    margin: 0 auto;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: auto;
+    object-fit: contain;
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 #education-link:hover{
+    background-color: #405169;
     transform: scale(1.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
