@@ -1,103 +1,119 @@
-#Portfolio{
-    color: #01c16a;
-    text-align: center;
-    font-family: "Inter", sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
+
 body{
-    background-color: #111827;
-    color: #f3f4f6;
-}
-.about{
-    color: #f3f4f6;
-    text-align: center;
-    font-family: "Inter", sans-serif;
-}
-article{
-    background-color: #1f2937;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-family: "Inter", sans-serif;
-    text-align: center;
-}
-/* #div1{
-    background-color: aliceblue;
-    color: #111827;
-} */
-#github-link{
-    color: #01c16a;
-    text-decoration: none;    
-    text-align: center;
-    font-family: "Inter", sans-serif;
-    display: block;
-    border-radius: 8px;
-    padding: 20px;
-    width: 50px;
-    height: 50px;
-    margin:auto;
-    object-fit: contain;
-    transition: background-color 0.3s ease-in, transform 0.3s ease-in-out;
-}
-#github-link:hover{
-    transform: scale(1.2);
+    background: #212529;
+    height: 100vh;
 }
 
-#education-link{
-    color: #01c16a;
-    text-decoration: none;    
-    text-align:center;
-    font-family: "Inter", sans-serif;
-    display: block;
-    border-radius: 8px;
-    padding: 20px;
-    max-width: fit-content;
-    max-height: fit-content;
-    margin: auto;
-    object-fit: contain;
-    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-#education-link:hover{
-    background-color: #405169;
-    transform: scale(1.2);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-#Form1{
-    background-color: #1f2937;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-family: "Inter", sans-serif;
-    text-align: center;
-}
-#feedback{
-    color: #131924;
-    text-align: center;
-    font-family: "Inter", sans-serif;
-    height: 50px;
-    width: 500px;
-    border-radius: 8px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.navbar{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
 }
 
-#feedback:hover{
-    background-color: #405169;
-    color: #f3f4f6;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-
+.navbar h2{
+    color: #02ffaf;
+    font-weight: 700;
 }
-#feedback1{
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
     color: #ffffff;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+    margin: 0 10px;
+}
+.navbar ul li a:hover{
+    background: #02ffaf;
+    color: #212529;
+}
+
+.Hire-btn{
+    background: #02ffaf;
+    color: #212529;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.Hire-btn:hover{
+    background: #212529;
+    color: #02ffaf;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.main h3{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
     text-align: center;
-    font-family: "Inter", sans-serif;
-    height: 50px;
-    width: 500px;
-    border-radius: 8px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;}
+}
+ h5{
+    color: #bbbbbb;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 0 50px;
+    margin-top: 50px;
+}
+.about h2{
+    color: #02ffaf;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 10px;
+    padding: 5px;
+    background: #383f46;
+    border-radius: 5px;
+    display: inline-block;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.about p{
+    display: flex;
+    color: #bbbbbb;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px;
+    padding: 10px;
+    background: #383f46;
+    border-radius: 10px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.about img{
+    width: 100px;
+}
