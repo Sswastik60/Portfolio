@@ -112,6 +112,9 @@ h5 {
     box-shadow: 0 4px 8px rgba(0, 255, 200, 0.846);
     transition: transform 0.5s ease;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
 }
 
 .about h2:hover {
@@ -252,5 +255,21 @@ h5 {
     .Hire-btn {
         display: none;
     }
+}
+
+.githubfollow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #383f46;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(7, 26, 22, 0.846);
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
 }
 
