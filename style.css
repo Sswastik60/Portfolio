@@ -109,8 +109,8 @@ h5 {
     border-radius: 5px;
     display: inline-block;
     min-width: 200px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 255, 200, 0.846);
+    transition: transform 0.5s ease;
     text-align: center;
 }
 
@@ -139,17 +139,13 @@ h5 {
 }
 
 .about .img img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
 }
 
-.about .img img:hover {
-    transform: scale(1.1);
-}
 
 /* GitHub Display */
 .githubdisplay {
@@ -173,7 +169,7 @@ h5 {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(92, 171, 159, 0.795);
     transition: transform 0.3s ease;
     font-size: 16px;
     text-align: center;
@@ -209,7 +205,7 @@ h5 {
     font-weight: 500;
     padding: 10px 15px;
     border-radius: 5px;
-    transition: background 0.3s ease, color 0.3s ease;
+    transition: background 0.5s ease, color 0.5s ease;
 }
 
 .menu-toggle {
