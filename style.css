@@ -1,101 +1,275 @@
-body{
-  background-color: rgb(33, 35, 34);
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin: auto;
-}
-h1{
-  color: rgb(19, 197, 138);
-  font-family: 'Courier New', Courier, monospace;
-  background-color: rgb(65, 103, 90);
-  margin: auto;
-  padding: 10px;
-  height: 20;
-  width: fit-content;
-  margin-bottom: 10px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
-h1:hover{
-  color:white;
+body {
+    background: #212529;
+    min-height: 100vh;
 }
 
-.container{
-  border-radius: 20px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(40, 43, 42);
-  height: 70vh;
-  width: 70vh;
-  margin: auto;
+/* Navbar */
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    flex-wrap: wrap;
 }
 
-.mainbox{ 
-  margin: auto;
-  justify-content: center;
-  text-align: center;
-  align-content: center;
-  align-items: center;
-  
+.navbar h2 {
+    color: #02ffaf;
+    font-weight: 700;
 }
 
-.buttons{
-  height: 70vh;
-  width: 70vh;
-  margin: auto;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  
+.navbar ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-left: 0;
 }
 
-.btn{
-  border-radius: 10px;
-  color: rgb(13, 15, 15);
-  font-size: 30px;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  margin: auto;
-  height: 100px;
-  width: 100px;
-  gap: auto;
-  
+.navbar ul li {
+    list-style: none;
 }
 
-.resetbtn{
-  padding: 14px;
-  border-radius: 10px;
-  
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+    margin: 0 10px;
 }
 
-.resetbtn{
-  color: rgb(19, 197, 138);
-  font-family: 'Courier New', Courier, monospace;
-  background-color: rgb(65, 103, 90);
-  margin: auto;
-  padding: 10px;
-  height: 20;
-  width: fit-content;
-  transition: ease-in 0.3s ;
+.navbar ul li a:hover {
+    background: #02ffaf;
+    color: #212529;
 }
 
-.resetbtn button:hover{
-  color: rgb(0, 0, 0);
-  background-color: aquamarine;
+.Hire-btn {
+    background: #02ffaf;
+    color: #212529;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
-.winnertext{
-  color: rgb(2, 252, 168);
-  font-family: 'Courier New', Courier, monospace;
-  margin: auto;
-  padding: 10px;
-  height: 20;
-  font-weight: 300;
-  width: fit-content;
-  margin-bottom: 10px;
+.Hire-btn:hover {
+    background: #212529;
+    color: #02ffaf;
 }
+
+/* Main Section */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.main h3 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+h5 {
+    color: #bbbbbb;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0 50px;
+    margin-top: 50px;
+}
+
+.about h2 {
+    color: #02ffaf;
+    font-weight: 500;
+    margin: 10px 0;
+    padding: 5px;
+    background: #383f46;
+    border-radius: 5px;
+    display: inline-block;
+    min-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 255, 200, 0.846);
+    transition: transform 0.5s ease;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.about h2:hover {
+    transform: scale(1.1);
+}
+
+.about p {
+    color: #bbbbbb;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px 0;
+    padding: 10px;
+    background: #383f46;
+    border-radius: 10px;
+    line-height: 1.5;
+    text-align: justify;
+    flex: 1 1 300px;
+}
+
+.about .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 150px;
+}
+
+.about .img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* GitHub Display */
+.githubdisplay {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 20px;
+    background: #101315;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(7, 26, 22, 0.846);
+}
+
+.githubdisplay h2 {
+    
+    width:fit-content;
+    height: fit-content;
+    background: #383f46;
+    color: #02ffaf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(92, 171, 159, 0.795);
+    transition: transform 0.3s ease;
+    font-size: 16px;
+    text-align: center;
+}
+
+.githubdisplay h2:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+/* ...existing styles above remain unchanged... */
+
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: #212529;
+    position: relative;
+    z-index: 1000;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 4px;
+}
+
+.menu-toggle span {
+    height: 3px;
+    width: 25px;
+    background: #02ffaf;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .navbar ul {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #212529;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    .navbar ul.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .Hire-btn {
+        display: none;
+    }
+}
+
+.githubfollow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #383f46;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(7, 26, 22, 0.846);
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
