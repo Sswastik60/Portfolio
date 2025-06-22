@@ -1,100 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Portfolio</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://ghcg.lyova24.ru/static/gh.css" />
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
 </head>
 <body>
-
-    <!-- Navigation -->
-    <header class="navbar">
-        <!-- Inside .navbar -->
-        <div class="menu-toggle" id="menu-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
+  <h1><span>Tic Tac Toe</span></h1>
+  <h2 class="winnertext"></h2>
+  <main>
+    <div class="container">
+      <div class="mainbox">
+        <div class="buttons">
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
         </div>
-
-        <h2>Portfolio</h2>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <button class="Hire-btn">Hire me</button>
-    </header>
-
-    <!-- Main Intro Section -->
-    <main id="home" class="main">
-        <h3>
-            Hi, I'm <span class="name">Swastik Sharma</span>!
-            <i>
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
-                    <path d="m430-500 283-283q12-12 28-12t28 12q12 12 12 28t-12 28L487-444l-57-56Zm99 99 254-255q12-12 28.5-12t28.5 12q12 12 12 28.5T840-599L586-345l-57-56ZM211-211q-91-91-91-219t91-219l120-120 59 59q7 7 12 14.5t10 15.5l148-149q12-12 28.5-12t28.5 12q12 12 12 28.5T617-772L444-599l-85 84 19 19q46 46 44 110t-49 111l-57-56q23-23 25.5-54.5T321-440l-47-46q-12-12-12-28.5t12-28.5l57-56q12-12 12-28.5T331-656l-64 64q-68 68-68 162.5T267-267q68 68 163 68t163-68l239-240q12-12 28.5-12t28.5 12q12 12 12 28.5T889-450L649-211q-91 91-219 91t-219-91Zm219-219ZM680-39v-81q66 0 113-47t47-113h81q0 100-70.5 170.5T680-39ZM39-680q0-100 70.5-170.5T280-921v81q-66 0-113 47t-47 113H39Z"/>
-                </svg>
-            </i>
-        </h3>
-        <h5>
-            🚀 First-year CSE student exploring the worlds of Java & Web Development. <br />
-            Passionate about coding, problem-solving, and building dynamic digital experiences! 🌐💻
-        </h5>
-    </main>
-
-    <!-- About Section -->
-    <section class="about" id="about">
-        <h2>Intro:</h2>
-        <div class="img">
-            <img src="https://avatars.githubusercontent.com/u/130757809?v=4" alt="Profile image of Swastik Sharma">
-        </div>
-        <p>
-            I am a first-year Computer Science and Engineering student with a passion for coding and web development. I love exploring new technologies and building innovative solutions. My goal is to become a proficient software developer and contribute to exciting projects in the tech industry.
-        </p>
-    </section>
-
-    <!-- GitHub Stats Section -->
-     <!-- <div class="githubdisplay" id="github">
-        <h2>GitHub Stats:</h2>
-        <img
-        src="https://ghchart.rshah.org/02ffaf/Sswastik60"alt="GitHub contributions chart"/>
-   <a href="https://github.com/Sswastik60" target="_blank" style="margin-top:10px; display:inline-block;">
-    <img src="https://img.shields.io/github/followers/Sswastik60?label=Follow&style=social" alt="GitHub Followers">
-  </a> --> 
-</div>
-
-
-    <section class="githubdisplay" id="projects">
-        <h2>GitHub Stats:</h2>
-        <div id="gh" data-login="Sswastik60"></div>
-        <script src="https://ghcg.lyova24.ru/static/gh.js"></script>
-    </section>
-
-    <div class="gitprofile">
-        <img src="https://github-readme-stats.vercel.app/api?username=Sswastik60&show_icons=true&theme=radical" alt="GitHub stats" width="100%">
+      </div>  
     </div>
-    
-
-    <section class="githubfollow" id="projects">
-        <a href="https://github.com/Sswastik60">
-  <img src="https://img.shields.io/github/followers/Sswastik60?label=Follow&style=social" alt="GitHub Follow">
-  
-</a>
-
-    </section>
-    
-
-
-    <!-- Optional Footer or Contact Section -->
-    <footer id="contact" style="text-align: center; color: #bbbbbb; margin-top: 50px; padding: 20px;">
-        <p>© 2025 Swastik Sharma. All rights reserved.</p>
-    </footer>
-
+    <div>
+      <button class="resetbtn">
+        RESET
+      </button>
+    </div>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
