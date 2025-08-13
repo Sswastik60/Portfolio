@@ -287,3 +287,24 @@ h5 {
     margin: 20px auto;
 }
 
+/* Scroll Reveal Animation */
+.about, .githubdisplay, .gitprofile, .githubfollow {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.about.visible, .githubdisplay.visible, .gitprofile.visible, .githubfollow.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Hamburger Animation */
+.menu-toggle.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+.menu-toggle.open span:nth-child(2) {
+    opacity: 0;
+}
+.menu-toggle.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
